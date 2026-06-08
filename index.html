@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verträge & Arbeitsrecht — germană pentru contabilitate · B1</title>
+    <meta property="og:title" content="Buchhaltung Teil 4 — Verträge & Arbeitsrecht">
+    <meta property="og:description" content="Germană pentru contracte de muncă și drept al muncii: Arbeitsvertrag, Probezeit, Kündigungsfrist, Urlaub, befristet/unbefristet + dialog animat la HR. Nivel B1.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#top" class="navbar-logo">ʚଓ Claudia Toth</a>
+        <ul class="navbar-menu">
+            <li><a href="#teorie" onclick="openSection(0)">Teorie</a></li>
+            <li><a href="#dialog" onclick="openSection(1)">🎬 Dialog</a></li>
+            <li><a href="#ex1" onclick="openSection(2)">Ex. 1</a></li>
+            <li><a href="#ex2" onclick="openSection(3)">Ex. 2</a></li>
+            <li><a href="#ex3" onclick="openSection(4)">Ex. 3</a></li>
+            <li><a href="#ex4" onclick="openSection(5)">Ex. 4</a></li>
+            <li><a href="#ex5" onclick="openSection(6)">Ex. 5</a></li>
+            <li><a href="#flashcards" onclick="openSection(7)">📇 Flashcards</a></li>
+            <li><a href="#verbs" onclick="openSection(8)">🔁 Verb-Konjugation</a></li>
+            <li><a href="#final-test" onclick="openSection(9)">🎯 Test Final</a></li>
+            <li><a href="#schreiben" onclick="openSection(10)">✍️ Schreiben</a></li>
+            <li><a href="curs-buchhaltung-4-vertraege-arbeitsrecht.pdf" download>📄 PDF</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="top">
+        <div class="header">
+            <h1>ʚଓ Verträge & Arbeitsrecht</h1>
+            <p class="subtitle">Germană pentru contabilitate — contracte de muncă și drept al muncii · Nivel B1</p>
+            <p>Claudia Toth · Deutsch für Buchhaltung & Finanzen — Teil 4</p>
+        </div>
+
+        <div class="content">
+            <div class="section" id="teorie">
+                <div class="section-header" onclick="toggleMainSection(0)"><h3>ʚଓ TEORIE</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-0"><div id="theory-container"></div></div>
+            </div>
+
+            <div class="section" id="dialog">
+                <div class="section-header" onclick="toggleMainSection(1)"><h3>ʚଓ 🎬 Dialog animat: Vor der Unterschrift</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-1">
+                    <p style="margin-bottom:14px;"><em>Apasă ▶️ Pornește. Andreea are contractul în față și, înainte să semneze, întreabă HR-ul despre perioada de probă, concediu și preaviz. Herr Berger îi explică. Reascultă orice replică cu 🔁.</em></p>
+                    <div id="dialog1-container"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex1">
+                <div class="section-header" onclick="toggleMainSection(2)"><h3>ʚଓ Übung 1: Lückentext — completează</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-2">
+                    <div id="ex1-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(1)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(1)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-1"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex2">
+                <div class="section-header" onclick="toggleMainSection(3)"><h3>ʚଓ Übung 2: Quiz — alegere multiplă</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-3">
+                    <div id="ex2-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(2)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(2)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-2"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex3">
+                <div class="section-header" onclick="toggleMainSection(4)"><h3>ʚଓ Übung 3: Potrivește vocabularul</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-4">
+                    <div id="ex3-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(3)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(3)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-3"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex4">
+                <div class="section-header" onclick="toggleMainSection(5)"><h3>ʚଓ Übung 4: Traduceri RO → DE</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-5">
+                    <div id="ex4-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(4)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(4)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-4"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex5">
+                <div class="section-header" onclick="toggleMainSection(6)"><h3>ʚଓ Übung 5: Situație ↔ expresie</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-6">
+                    <div id="ex5-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(5)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(5)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-5"></div>
+                </div>
+            </div>
+
+            <div class="section" id="flashcards">
+                <div class="section-header" onclick="toggleMainSection(7)"><h3>ʚଓ Flashcards - Învățare prin repetiție</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-7"><div id="flashcards-container"></div></div>
+            </div>
+
+            <div class="section" id="verbs">
+                <div class="section-header" onclick="toggleMainSection(8)"><h3>ʚଓ 🔁 Verb-Konjugation - Verbe contracte/muncă</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-8"><div id="verbs-container"></div></div>
+            </div>
+
+            <div class="section" id="final-test">
+                <div class="section-header" onclick="toggleMainSection(9)"><h3>ʚଓ 🎯 Test Final - Testează-ți cunoștințele!</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-9"><div id="final-test-container"></div></div>
+            </div>
+
+            <div class="section" id="schreiben">
+                <div class="section-header" onclick="toggleMainSection(10)"><h3>ʚଓ ✍️ Schreibwerkstatt - Atelier de scriere</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-10">
+                    <div class="exercise-instruction">
+                        <strong>✍️ Sarcina de scriere:</strong> Scrie un text scurt (aprox. <strong>40-60 de cuvinte</strong>) — descrie contractul tău de muncă din Germania sau întrebările pe care le ai înainte de a semna. Folosește <strong>minimum 6 cuvinte</strong> din lecție.
+                    </div>
+                    <div class="theory-box" style="background:#f0fdf4;">
+                        <h4>💡 Răspunde la întrebările (Leitfragen):</h4>
+                        <ul style="margin:6px 0 0 18px; line-height:1.7;">
+                            <li>📄 <strong>Ist Ihr Vertrag befristet oder unbefristet?</strong> (Contractul tău e determinat sau nedeterminat?)</li>
+                            <li>🕒 <strong>Wie lange ist die Probezeit?</strong> (Cât e perioada de probă?)</li>
+                            <li>🌴 <strong>Wie viele Urlaubstage haben Sie?</strong> (Câte zile de concediu ai?)</li>
+                            <li>📝 <strong>Wie lang ist die Kündigungsfrist?</strong> (Cât e termenul de preaviz?)</li>
+                            <li>👔 <strong>Was möchten Sie fragen, bevor Sie unterschreiben?</strong> (Ce vrei să întrebi înainte de a semna?)</li>
+                        </ul>
+                    </div>
+                    <div class="theory-box" style="background:#fffbeb; border-left:4px solid #f59e0b;">
+                        <h4>📝 Model (ca să-ți fie mai ușor):</h4>
+                        <p class="de" style="color:#065f46;"><em>Morgen unterschreibe ich meinen Arbeitsvertrag. Der Vertrag ist zunächst auf ein Jahr befristet. Die Probezeit dauert sechs Monate. Ich habe 30 Urlaubstage im Jahr und arbeite in Vollzeit. Die Kündigungsfrist ist vier Wochen. Bevor ich unterschreibe, möchte ich fragen: Kann der Vertrag danach verlängert werden?</em></p>
+                        <p class="ro" style="color:#6b7280; font-style:italic;">(Mâine îmi semnez contractul de muncă. Contractul e deocamdată pe perioadă determinată, pe un an. Perioada de probă durează șase luni. Am 30 de zile de concediu pe an și lucrez cu normă întreagă. Termenul de preaviz e patru săptămâni. Înainte să semnez, vreau să întreb: poate fi prelungit contractul după aceea?)</p>
+                    </div>
+                    <div style="text-align:center; margin-top:22px;">
+                        <p style="color:#047857; margin-bottom:14px; font-size:1rem;">Când ești gata, trimite-mi textul tău prin formular. Îl citesc și îți dau feedback personalizat. 🦋</p>
+                        <a href="https://forms.gle/RGNQKLN9sDPWQDJt6" target="_blank" rel="noopener noreferrer" style="display:inline-block; background:#10B981; color:white; padding:14px 32px; border-radius:10px; text-decoration:none; font-weight:bold; font-size:1.05rem; box-shadow:0 2px 6px rgba(16,185,129,0.3);">✍️ Trimite textul tău →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="theory-box" style="text-align: center; margin-top: 40px;">
+                <p style="font-size: 1.3rem; font-weight: bold; color: #065f46;">🎉 Gut gemacht!</p>
+                <p>Acum poți citi un contract de muncă german, înțelegi diferența befristet/unbefristet, știi ce sunt Probezeit, Kündigungsfrist și Urlaubsanspruch și cum vorbești cu HR-ul înainte de a semna. Vocabularul juridic al muncii nu te mai sperie. 💚</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="theory.js"></script>
+    <script src="dialogs.js?v=1"></script>
+    <script src="exercises.js"></script>
+    <script src="flashcards.js"></script>
+    <script src="verbs.js"></script>
+    <script src="final-test.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
