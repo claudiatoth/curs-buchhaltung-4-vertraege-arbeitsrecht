@@ -26,7 +26,7 @@ const theoryHTML = `
                     <div class="text">Azi învățăm să citim un <strong>contract de muncă</strong> german (Arbeitsvertrag): ce e perioada de probă (Probezeit), termenul de preaviz (Kündigungsfrist), dreptul la concediu (Urlaub) și diferența dintre contractul pe perioadă determinată și nedeterminată. La final ascult un dialog real cu Herr Berger, șeful de Resurse Umane, înainte să-mi semnez contractul.</div>
                 </div>
             </div>
-            <div class="theory-box" style="background:#fef3c7;border-color:#f59e0b;">
+            <div class="theory-box" style="background:#F5F0E8;border-color:#D4A574;">
                 <h4>✍️ Notă despre diacritice (ä, ö, ü, ß)</h4>
                 <p>Verificarea e blândă: poți scrie Umlaut-urile corect (<em>der Arbeitsvertrag, die Kündigung, der Betriebsrat</em>) sau cu varianta de înlocuire (<em>Kuendigung, Betriebsrat</em>). Ambele sunt acceptate. La fel, punctul de la finalul propoziției e opțional.</p>
             </div>
@@ -47,7 +47,7 @@ const theoryHTML = `
                 </div>
                 <span class="lesson-audio-label">🔊 Ascultă secțiunea</span>
             </div>
-            <div class="theory-box" style="background:#fef3c7;border-color:#f59e0b;">
+            <div class="theory-box" style="background:#F5F0E8;border-color:#D4A574;">
                 <h4>🚨 Substantivele se învață ÎNTOTDEAUNA cu pluralul</h4>
                 <p>În germană pluralul e imprevizibil (-e, -en, Umlaut sau identic). De aceea fiecare substantiv apare aici la <strong>singular · plural</strong>. Învață-le împreună, ca pe o pereche.</p>
             </div>
@@ -88,7 +88,7 @@ const theoryHTML = `
                 </div>
                 <span class="lesson-audio-label">🔊 Ascultă secțiunea</span>
             </div>
-            <div class="theory-box" style="background:#f0fdf4;">
+            <div class="theory-box" style="background:#FBF7EF;">
                 <h4>💡 Cele două tipuri de contract</h4>
                 <p><strong>befristet</strong> = pe perioadă DETERMINATĂ. Are o dată de sfârșit (Enddatum). Se termină singur la final.<br>
                 <strong>unbefristet</strong> = pe perioadă NEDETERMINATĂ. Nu are dată de sfârșit. Durează până când una dintre părți dă Kündigung (preaviz).</p>

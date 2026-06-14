@@ -116,7 +116,7 @@ function buildVerbs() {
     const container = document.getElementById('verbs-container');
     if (!container) return;
     let html = `
-        <div class="theory-box" style="background:#fffbeb;border-left:4px solid #f59e0b">
+        <div class="theory-box" style="background:#F5F0E8;border-left:4px solid #D4A574">
             <h4>📌 Verbe pentru contracte și drept al muncii</h4>
             <p>Atenție la prefixe: <strong>unterschreiben</strong>, <strong>beantragen</strong> și <strong>verlängern</strong> au prefix neseparabil (unter-, be-, ver-) → Perfekt FĂRĂ „ge-". <strong>einstellen</strong> e separabil → „-ge-" la mijloc. <strong>kündigen</strong> e regulat și cere persoana la DATIV.</p>
             <p style="margin-top:8px"><strong>Reamintire:</strong> Präteritum = IMPERFECT (semna, prelungea). Perfekt = perfect compus (a semnat).</p>
@@ -144,7 +144,7 @@ function buildVerbs() {
                     <table class="grammar-table"><thead><tr><th>Pronume</th><th>Formă</th><th>Traducere RO</th></tr></thead><tbody>${praeteritumRows}</tbody></table>
                     <h4 style="color:#065f46;margin:14px 0 8px">📕 Perfekt (timp vorbit)</h4>
                     <div class="example-box"><div class="de">${v.perfekt}</div><div class="ro">${v.perfektRo}</div></div>
-                    <div class="theory-box" style="margin-top:12px;background:#f0fdf4"><p><strong>📌 Notă:</strong> ${v.notes}</p></div>
+                    <div class="theory-box" style="margin-top:12px;background:#FBF7EF"><p><strong>📌 Notă:</strong> ${v.notes}</p></div>
                 </div>
             </div>
         `;
